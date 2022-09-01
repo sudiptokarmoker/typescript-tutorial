@@ -52,3 +52,29 @@ ninjaTwo = {
     beltColor: "black"
 }
 
+let age: any = 25;
+console.log(age);
+age = true; 
+console.log(age);
+age  = {name: "hello", id: 1233};
+console.log(age);
+
+let mixedNew: any[] = [];
+
+mixedNew.push(true);
+console.log(mixedNew);
+mixedNew.push("Sudipto");
+console.log(mixedNew);
+
+
+console.log("hello world, i would overcome this sitation sure soon");
+
+let greet: Function;
+
+greet = () => {
+    console.log("hello i am here function");
+}
+
+const add = (a: number, b: number|string) => {
+    //console.log(a + b);
+}
